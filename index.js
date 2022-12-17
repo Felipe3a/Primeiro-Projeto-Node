@@ -18,14 +18,16 @@ Route params => /users/2 //Buscar, Deletar ou Atualizar algo especifico
 
 */
 //bibliotecas
+
 const express = require('express')
 const uuid = require('uuid') //cria um id unico
+let cors = require('cors')
 //_________________________________________________________________________________________
 
-const port = 3000
+const port = 3001
 const app = express()
 app.use(express.json())
-
+app.use(cors())
 const users = []
 
 
