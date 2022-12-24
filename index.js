@@ -20,7 +20,7 @@ Route params => /users/2 //Buscar, Deletar ou Atualizar algo especifico
 //bibliotecas
 
 const express = require('express')
-const uuid = require('uuid') //cria um id unico
+const uuid = require('uuid') //cria um id unico 
 let cors = require('cors')
 //_________________________________________________________________________________________
 
