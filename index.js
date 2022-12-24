@@ -32,7 +32,7 @@ const users = []
 
 
 
-const checkUserId = (request, response, next) => {
+const checkUserId = (request, response, next) => { 
 
     const { id } = request.params
 
